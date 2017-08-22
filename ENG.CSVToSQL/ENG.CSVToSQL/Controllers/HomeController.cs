@@ -19,17 +19,20 @@ namespace ENG.CSVToSQL.Controllers
         [HttpPost]
         public ActionResult Generate(string columns, string table)
         {
-            if (Request.Files.Count > 0)
+            if (!string.IsNullOrWhiteSpace(table))
             {
-                var file = Request.Files[0];
-
-                if (file != null && file.ContentLength > 0)
+                if (Request.Files.Count > 0)
                 {
-                    var extension = Path.GetExtension(file.FileName);
-                    if (extension == ".txt" || extension == ".csv")
+                    var file = Request.Files[0];
+
+                    if (file != null && file.ContentLength > 0)
                     {
-                        var bytes = SQLInsertGenerator.Generate(file.InputStream, columns, table);
-                        return File(bytes, "application/txt", $"insert_{DateTime.Now.ToString("yyyyMMddhhmmss")}.txt");
+                        var extension = Path.GetExtension(file.FileName);
+                        if (extension == ".txt" || extension == ".csv")
+                        {
+                            var bytes = SQLInsertGenerator.Generate(file.InputStream, columns, table);
+                            return File(bytes, "application/sql", $"insert_{DateTime.Now.ToString("yyyyMMddhhmmss")}.sql");
+                        }
                     }
                 }
             }

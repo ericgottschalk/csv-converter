@@ -11,7 +11,8 @@ namespace ENG.CSVToSQL.Core
     {
         private static string GenerateInsert(List<List<string>> rows, string columns, string tableName)
         {
-            var insert = $"INSERT INTO {tableName} ({columns}) VALUES ";
+            columns = !string.IsNullOrWhiteSpace(columns) ? "(" + columns + ")" : "";
+            var insert = $"INSERT INTO {tableName} {columns} VALUES ";
             var sb = new StringBuilder();
             foreach (var row in rows)
             {
@@ -25,7 +26,7 @@ namespace ENG.CSVToSQL.Core
         internal static byte[] Generate(Stream inputStream, string columns, string tableName)
         {
             var rows = CSVReader.Read(inputStream);
-            columns = string.Join(",", columns.Split(',').Select(item => $"[{item}]"));
+            columns = string.Join(",", columns.Split(',').Select(item => string.IsNullOrWhiteSpace(item) ? "" : $"[{item}]")).TrimEnd(',');
             var insert = GenerateInsert(rows, columns, tableName);
 
             using (var memoryStream = new MemoryStream())

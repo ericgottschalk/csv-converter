@@ -14,7 +14,7 @@
 @using (Html.BeginForm("Generate", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
 {
     <div class="form-group">
-        <label for="columns">Nome das colunas separado por virgula!</label>
+        <label for="columns">Nome das colunas separado por virgula! (campo opicional)</label>
         @Html.TextBox("columns", "", new { placeholder = "Colunas", @id = "columns", @class = "form-control columns" })
     </div>
 
