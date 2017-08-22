@@ -31,3 +31,36 @@ c:\users\eric.gottschalk\documents\visual studio 2015\Projects\ENG.CSVToSQL\ENG.
 c:\users\eric.gottschalk\documents\visual studio 2015\Projects\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.csprojResolveAssemblyReference.cache
 c:\users\eric.gottschalk\documents\visual studio 2015\Projects\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.dll
 c:\users\eric.gottschalk\documents\visual studio 2015\Projects\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.pdb
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\csc.exe
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\vbc.exe
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\VBCSCompiler.exe
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CSVToSQL.dll.config
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CSVToSQL.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CSVToSQL.pdb
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Helpers.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Mvc.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Razor.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Webpages.Deployment.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Webpages.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Webpages.Razor.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Razor.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Webpages.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Webpages.Deployment.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Webpages.Razor.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Helpers.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Mvc.xml
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.csprojResolveAssemblyReference.cache
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.pdb
