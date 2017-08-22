@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .columns{
+        width:100%;
+    }
+</style>
+
+<h2></h2>
+
+@using (Html.BeginForm("Generate", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+{
+    <div class="form-group">
+        <label for="columns">Nome das colunas separado por virgula!</label>
+        @Html.TextBox("columns", "", new { placeholder = "Colunas", @id = "columns", @class = "form-control columns" })
+    </div>
+
+    <div class="form-group">
+        @Html.TextBox("table", "", new { placeholder = "Nome Da Tabela", @id = "table", @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <input type="file" name="file" accept=".csv, .txt"/>
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-success" type="submit">Gerar</button>
+    </div>
+}
+
