@@ -34,7 +34,7 @@ namespace ENG.CSVToSQL.Controllers
                 }
             }
 
-            return View("Error");
+            return RedirectToAction("Index", "Error");
         }
     }
 }
