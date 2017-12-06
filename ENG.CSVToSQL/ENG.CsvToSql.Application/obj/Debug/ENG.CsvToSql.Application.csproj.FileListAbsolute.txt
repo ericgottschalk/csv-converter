@@ -1,0 +1,8 @@
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\bin\Debug\ENG.CsvToSql.Application.dll.config
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\bin\Debug\ENG.CsvToSql.Application.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\bin\Debug\ENG.CsvToSql.Application.pdb
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\bin\Debug\ENG.CsvToSql.Infra.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\bin\Debug\ENG.CsvToSql.Infra.pdb
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\obj\Debug\ENG.CsvToSql.Application.csprojResolveAssemblyReference.cache
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\obj\Debug\ENG.CsvToSql.Application.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CsvToSql.Application\obj\Debug\ENG.CsvToSql.Application.pdb

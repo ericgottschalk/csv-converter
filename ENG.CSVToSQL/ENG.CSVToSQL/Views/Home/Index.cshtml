@@ -1,4 +1,4 @@
-﻿
+﻿@model ENG.CsvConverter.Models.ConvertRequestModel
 @{
     ViewBag.Title = "Index";
 }
@@ -14,21 +14,29 @@
 @using (Html.BeginForm("Generate", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
 {
     <div class="form-group">
-        <label for="columns" class="control-label">Nome das colunas separado por virgula! (campo opcional)</label>
-        @Html.TextBox("columns", "", new { placeholder = "Colunas", @id = "columns", @class = "form-control columns" })
+        <label for="columns" class="control-label">Nome das props separado por virgula!</label>
+        @Html.TextBoxFor(t => t.Props, new { placeholder = "Props", @id = "props", @class = "form-control columns" })
     </div>
 
     <div class="form-group">
-        @Html.TextBox("table", "", new { placeholder = "Nome Da Tabela", @id = "table", @class = "form-control" })
+        @Html.TextBoxFor(t => t.ObjectName, new { placeholder = "Object Name", @id = "objectName", @class = "form-control" })
     </div>
 
     <div class="form-group">
-        <label for="file" class="control-label">Arquivo csv usando ; como separador!</label>
-        <input id="file" type="file" name="file" accept=".csv, .txt"/>
+        @Html.TextBoxFor(t => t.Separator, new { placeholder = "Separator", @id = "objectName", @class = "form-control" })
     </div>
 
     <div class="form-group">
-        <button class="btn btn-success" type="submit">Gerar</button>
+        @Html.DropDownListFor(t => t.Type, "Select", new { @id = "objectName", @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.TextBoxFor(x => x.File, new { type = "file" })
+        @Html.ValidationMessageFor(x => x.File)
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-success" type="submit">Generate</button>
     </div>
 }
 

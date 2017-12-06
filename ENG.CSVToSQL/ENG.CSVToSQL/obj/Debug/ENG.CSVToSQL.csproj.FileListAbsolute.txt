@@ -64,3 +64,7 @@ C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\System.Web.Mv
 C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.csprojResolveAssemblyReference.cache
 C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.dll
 C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\obj\Debug\ENG.CSVToSQL.pdb
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CsvToSql.Application.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CsvToSql.Infra.dll
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CsvToSql.Application.pdb
+C:\Users\eric.gottschalk\Desktop\csv\ENG.CSVToSQL\ENG.CSVToSQL\bin\ENG.CsvToSql.Infra.pdb

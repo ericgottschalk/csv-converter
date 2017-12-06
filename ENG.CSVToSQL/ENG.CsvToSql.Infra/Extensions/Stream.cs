@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ENG.CSVToSQL.Core
+namespace ENG.CsvConverter.Infra.Extensions
 {
     public static partial class Extensions
     {
-        public  static IEnumerable<string> ReadAllLines(this Stream stream)
+        public static IEnumerable<string> ReadAllLines(this Stream stream)
         {
             using (var reader = new StreamReader(stream))
             {
