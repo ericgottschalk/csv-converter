@@ -1,5 +1,0 @@
-C:\Users\eric.gottschalk\Desktop\csv\ENG.CsvToSql\ENG.CsvToSql.Infra\bin\Debug\ENG.CsvConverter.Infra.dll.config
-C:\Users\eric.gottschalk\Desktop\csv\ENG.CsvToSql\ENG.CsvToSql.Infra\bin\Debug\ENG.CsvConverter.Infra.dll
-C:\Users\eric.gottschalk\Desktop\csv\ENG.CsvToSql\ENG.CsvToSql.Infra\bin\Debug\ENG.CsvConverter.Infra.pdb
-C:\Users\eric.gottschalk\Desktop\csv\ENG.CsvToSql\ENG.CsvToSql.Infra\obj\Debug\ENG.CsvConverter.Infra.dll
-C:\Users\eric.gottschalk\Desktop\csv\ENG.CsvToSql\ENG.CsvToSql.Infra\obj\Debug\ENG.CsvConverter.Infra.pdb
