@@ -27,7 +27,7 @@
     </div>
 
     <div class="form-group">
-        @Html.DropDownListFor(t => t.Type, "Select", new { @id = "objectName", @class = "form-control" })
+        @Html.EnumDropDownListFor(t => t.Type, "Select", new { @id = "objectName", @class = "form-control" })
     </div>
 
     <div class="form-group">
